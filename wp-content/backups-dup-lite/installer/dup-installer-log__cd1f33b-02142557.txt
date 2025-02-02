@@ -1,0 +1,492 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 06:02:48
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.3                                 |7.3.33-14+ubuntu20.04.1+deb.sury.org+1
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2021-10-02 14:25:57
+WP VERSION__________: 5.8.1
+DUP VERSION_________: 1.4.3
+DB__________________: 8.0.26
+DB TABLES___________: 28
+DB ROWS_____________: 2,420
+DB FILE SIZE________: 29.33MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.33-14+ubuntu20.04.1+deb.sury.org+1 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.41 (Ubuntu)
+DOC ROOT____________: "/var/www/staging_glovtex_com"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://staging.glovtex.com/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/var/www/staging_glovtex_com/20211001_glovtextelecommunications_[HASH]_20211002142557_archive.zip"
+SIZE________________: 159.45MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:690]
+Permissions setting on file '/var/www/staging_glovtex_com/20211001_glovtextelecommunications_[HASH]_20211002142557_archive.zip' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:690]
+Permissions setting on file '/var/www/staging_glovtex_com/installer.php' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/ctrls/classes/class.ctrl.extraction.php|LINE:572]
+
+STEP-1 COMPLETE @ 06:02:52 - RUNTIME: 3.3940 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): The server requested authentication method unknown to the client [caching_sha2_password] [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/2054): The server requested authentication method unknown to the client [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: The server requested authentication method unknown to the client[ERRNO:2054]
+[PHP ERR][WARN] MSG:mysqli_connect(): The server requested authentication method unknown to the client [caching_sha2_password] [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/2054): The server requested authentication method unknown to the client [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: The server requested authentication method unknown to the client[ERRNO:2054]
+[PHP ERR][WARN] MSG:mysqli_connect(): The server requested authentication method unknown to the client [caching_sha2_password] [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/2054): The server requested authentication method unknown to the client [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: The server requested authentication method unknown to the client[ERRNO:2054]
+[PHP ERR][WARN] MSG:mysqli_connect(): The server requested authentication method unknown to the client [caching_sha2_password] [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/2054): The server requested authentication method unknown to the client [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: The server requested authentication method unknown to the client[ERRNO:2054]
+[PHP ERR][WARN] MSG:mysqli_connect(): The server requested authentication method unknown to the client [caching_sha2_password] [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/2054): The server requested authentication method unknown to the client [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: The server requested authentication method unknown to the client[ERRNO:2054]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/2002): Connection refused [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Connection refused[ERRNO:2002]
+[PHP ERR][WARN] MSG:mysqli_connect(): The server requested authentication method unknown to the client [caching_sha2_password] [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/2054): The server requested authentication method unknown to the client [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: The server requested authentication method unknown to the client[ERRNO:2054]
+[PHP ERR][WARN] MSG:mysqli_connect(): The server requested authentication method unknown to the client [caching_sha2_password] [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/2054): The server requested authentication method unknown to the client [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: The server requested authentication method unknown to the client[ERRNO:2054]
+[PHP ERR][WARN] MSG:mysqli_connect(): The server requested authentication method unknown to the client [caching_sha2_password] [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/2054): The server requested authentication method unknown to the client [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: The server requested authentication method unknown to the client[ERRNO:2054]
+[PHP ERR][WARN] MSG:mysqli_connect(): The server requested authentication method unknown to the client [caching_sha2_password] [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/2054): The server requested authentication method unknown to the client [CODE:2|FILE:/var/www/staging_glovtex_com/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: The server requested authentication method unknown to the client[ERRNO:2054]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 06:38:15
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.34 -- Build Server: 8.0.26
+FILE SIZE:	dup-database__[HASH].sql (18.98MB)
+TIMEOUT:	5000
+MAXPACK:	67108864
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/var/www/staging_glovtex_com/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	264
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_defender_audit_log: (0)
+wp_defender_email_log: (0)
+wp_defender_lockout: (0)
+wp_defender_lockout_log: (0)
+wp_defender_scan: (0)
+wp_defender_scan_item: (0)
+wp_duplicator_packages: (0)
+wp_frmt_form_entry: (0)
+wp_frmt_form_entry_meta: (0)
+wp_frmt_form_views: (3)
+wp_hustle_entries: (0)
+wp_hustle_entries_meta: (0)
+wp_hustle_modules: (0)
+wp_hustle_modules_meta: (0)
+wp_hustle_tracking: (0)
+wp_links: (0)
+wp_options: (203)
+wp_postmeta: (1479)
+wp_posts: (677)
+wp_smush_dir_images: (0)
+wp_term_relationships: (13)
+wp_term_taxonomy: (2)
+wp_termmeta: (0)
+wp_terms: (2)
+wp_usermeta: (23)
+wp_users: (1)
+Removed '18' cache/transient rows
+
+INSERT DATA RUNTIME: 1.1326 sec.
+STEP-2 COMPLETE @ 06:38:16 - RUNTIME: 1.1575 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 06:39:10
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Glovtex Telecommunication"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/jonathan/Projects/wordpress"
+path_new______________: "/var/www/staging_glovtex_com"
+siteurl_______________: "http://staging.glovtex.com"
+url_old_______________: "http://localhost/wordpress"
+url_new_______________: "http://staging.glovtex.com"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: "jonathan.ogbimi@gmail.com"
+wp_nickname___________: ""
+wp_first_name_________: "Jonathan"
+wp_last_name__________: "Ogbimi"
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/jonathan/Projects/wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  2:"\/home\/jonathan\/Projects\/wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  3:"%2Fhome%2Fjonathan%2FProjects%2Fwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  4:"\home\jonathan\Projects\wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  5:"\\home\\jonathan\\Projects\\wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  6:"%5Chome%5Cjonathan%5CProjects%5Cwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  7:"//localhost/wordpress" ===========================> "//staging.glovtex.com"
+	SEARCH  8:"\/\/localhost\/wordpress" ========================> "\/\/staging.glovtex.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress" =====================> "%2F%2Fstaging.glovtex.com"
+	SEARCH 10:"https://staging.glovtex.com" =====================> "http://staging.glovtex.com"
+	SEARCH 11:"https:\/\/staging.glovtex.com" ===================> "http:\/\/staging.glovtex.com"
+	SEARCH 12:"https%3A%2F%2Fstaging.glovtex.com" ===============> "http%3A%2F%2Fstaging.glovtex.com"
+
+EVALUATE TABLE: "wp_defender_audit_log"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_defender_email_log"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_defender_lockout"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_defender_lockout_log"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_defender_scan"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_defender_scan_item"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_frmt_form_entry"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_frmt_form_entry_meta"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_frmt_form_views"______________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/jonathan/Projects/wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  2:"\/home\/jonathan\/Projects\/wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  3:"%2Fhome%2Fjonathan%2FProjects%2Fwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  4:"\home\jonathan\Projects\wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  5:"\\home\\jonathan\\Projects\\wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  6:"%5Chome%5Cjonathan%5CProjects%5Cwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  7:"//localhost/wordpress" ===========================> "//staging.glovtex.com"
+	SEARCH  8:"\/\/localhost\/wordpress" ========================> "\/\/staging.glovtex.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress" =====================> "%2F%2Fstaging.glovtex.com"
+	SEARCH 10:"https://staging.glovtex.com" =====================> "http://staging.glovtex.com"
+	SEARCH 11:"https:\/\/staging.glovtex.com" ===================> "http:\/\/staging.glovtex.com"
+	SEARCH 12:"https%3A%2F%2Fstaging.glovtex.com" ===============> "http%3A%2F%2Fstaging.glovtex.com"
+
+EVALUATE TABLE: "wp_hustle_entries"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_hustle_entries_meta"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_hustle_modules"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_hustle_modules_meta"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_hustle_tracking"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   203][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/jonathan/Projects/wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  2:"\/home\/jonathan\/Projects\/wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  3:"%2Fhome%2Fjonathan%2FProjects%2Fwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  4:"\home\jonathan\Projects\wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  5:"\\home\\jonathan\\Projects\\wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  6:"%5Chome%5Cjonathan%5CProjects%5Cwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  7:"//localhost/wordpress" ===========================> "//staging.glovtex.com"
+	SEARCH  8:"\/\/localhost\/wordpress" ========================> "\/\/staging.glovtex.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress" =====================> "%2F%2Fstaging.glovtex.com"
+	SEARCH 10:"https://staging.glovtex.com" =====================> "http://staging.glovtex.com"
+	SEARCH 11:"https:\/\/staging.glovtex.com" ===================> "http:\/\/staging.glovtex.com"
+	SEARCH 12:"https%3A%2F%2Fstaging.glovtex.com" ===============> "http%3A%2F%2Fstaging.glovtex.com"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1479][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/jonathan/Projects/wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  2:"\/home\/jonathan\/Projects\/wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  3:"%2Fhome%2Fjonathan%2FProjects%2Fwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  4:"\home\jonathan\Projects\wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  5:"\\home\\jonathan\\Projects\\wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  6:"%5Chome%5Cjonathan%5CProjects%5Cwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  7:"//localhost/wordpress" ===========================> "//staging.glovtex.com"
+	SEARCH  8:"\/\/localhost\/wordpress" ========================> "\/\/staging.glovtex.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress" =====================> "%2F%2Fstaging.glovtex.com"
+	SEARCH 10:"https://staging.glovtex.com" =====================> "http://staging.glovtex.com"
+	SEARCH 11:"https:\/\/staging.glovtex.com" ===================> "http:\/\/staging.glovtex.com"
+	SEARCH 12:"https%3A%2F%2Fstaging.glovtex.com" ===============> "http%3A%2F%2Fstaging.glovtex.com"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   677][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/jonathan/Projects/wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  2:"\/home\/jonathan\/Projects\/wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  3:"%2Fhome%2Fjonathan%2FProjects%2Fwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  4:"\home\jonathan\Projects\wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  5:"\\home\\jonathan\\Projects\\wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  6:"%5Chome%5Cjonathan%5CProjects%5Cwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  7:"//localhost/wordpress" ===========================> "//staging.glovtex.com"
+	SEARCH  8:"\/\/localhost\/wordpress" ========================> "\/\/staging.glovtex.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress" =====================> "%2F%2Fstaging.glovtex.com"
+	SEARCH 10:"https://staging.glovtex.com" =====================> "http://staging.glovtex.com"
+	SEARCH 11:"https:\/\/staging.glovtex.com" ===================> "http:\/\/staging.glovtex.com"
+	SEARCH 12:"https%3A%2F%2Fstaging.glovtex.com" ===============> "http%3A%2F%2Fstaging.glovtex.com"
+
+EVALUATE TABLE: "wp_smush_dir_images"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/jonathan/Projects/wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  2:"\/home\/jonathan\/Projects\/wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  3:"%2Fhome%2Fjonathan%2FProjects%2Fwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  4:"\home\jonathan\Projects\wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  5:"\\home\\jonathan\\Projects\\wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  6:"%5Chome%5Cjonathan%5CProjects%5Cwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  7:"//localhost/wordpress" ===========================> "//staging.glovtex.com"
+	SEARCH  8:"\/\/localhost\/wordpress" ========================> "\/\/staging.glovtex.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress" =====================> "%2F%2Fstaging.glovtex.com"
+	SEARCH 10:"https://staging.glovtex.com" =====================> "http://staging.glovtex.com"
+	SEARCH 11:"https:\/\/staging.glovtex.com" ===================> "http:\/\/staging.glovtex.com"
+	SEARCH 12:"https%3A%2F%2Fstaging.glovtex.com" ===============> "http%3A%2F%2Fstaging.glovtex.com"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/jonathan/Projects/wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  2:"\/home\/jonathan\/Projects\/wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  3:"%2Fhome%2Fjonathan%2FProjects%2Fwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  4:"\home\jonathan\Projects\wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  5:"\\home\\jonathan\\Projects\\wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  6:"%5Chome%5Cjonathan%5CProjects%5Cwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  7:"//localhost/wordpress" ===========================> "//staging.glovtex.com"
+	SEARCH  8:"\/\/localhost\/wordpress" ========================> "\/\/staging.glovtex.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress" =====================> "%2F%2Fstaging.glovtex.com"
+	SEARCH 10:"https://staging.glovtex.com" =====================> "http://staging.glovtex.com"
+	SEARCH 11:"https:\/\/staging.glovtex.com" ===================> "http:\/\/staging.glovtex.com"
+	SEARCH 12:"https%3A%2F%2Fstaging.glovtex.com" ===============> "http%3A%2F%2Fstaging.glovtex.com"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/jonathan/Projects/wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  2:"\/home\/jonathan\/Projects\/wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  3:"%2Fhome%2Fjonathan%2FProjects%2Fwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  4:"\home\jonathan\Projects\wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  5:"\\home\\jonathan\\Projects\\wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  6:"%5Chome%5Cjonathan%5CProjects%5Cwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  7:"//localhost/wordpress" ===========================> "//staging.glovtex.com"
+	SEARCH  8:"\/\/localhost\/wordpress" ========================> "\/\/staging.glovtex.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress" =====================> "%2F%2Fstaging.glovtex.com"
+	SEARCH 10:"https://staging.glovtex.com" =====================> "http://staging.glovtex.com"
+	SEARCH 11:"https:\/\/staging.glovtex.com" ===================> "http:\/\/staging.glovtex.com"
+	SEARCH 12:"https%3A%2F%2Fstaging.glovtex.com" ===============> "http%3A%2F%2Fstaging.glovtex.com"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/jonathan/Projects/wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  2:"\/home\/jonathan\/Projects\/wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  3:"%2Fhome%2Fjonathan%2FProjects%2Fwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  4:"\home\jonathan\Projects\wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  5:"\\home\\jonathan\\Projects\\wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  6:"%5Chome%5Cjonathan%5CProjects%5Cwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  7:"//localhost/wordpress" ===========================> "//staging.glovtex.com"
+	SEARCH  8:"\/\/localhost\/wordpress" ========================> "\/\/staging.glovtex.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress" =====================> "%2F%2Fstaging.glovtex.com"
+	SEARCH 10:"https://staging.glovtex.com" =====================> "http://staging.glovtex.com"
+	SEARCH 11:"https:\/\/staging.glovtex.com" ===================> "http:\/\/staging.glovtex.com"
+	SEARCH 12:"https%3A%2F%2Fstaging.glovtex.com" ===============> "http%3A%2F%2Fstaging.glovtex.com"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/jonathan/Projects/wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  2:"\/home\/jonathan\/Projects\/wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  3:"%2Fhome%2Fjonathan%2FProjects%2Fwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  4:"\home\jonathan\Projects\wordpress" ===============> "/var/www/staging_glovtex_com"
+	SEARCH  5:"\\home\\jonathan\\Projects\\wordpress" ===========> "\/var\/www\/staging_glovtex_com"
+	SEARCH  6:"%5Chome%5Cjonathan%5CProjects%5Cwordpress" =======> "%2Fvar%2Fwww%2Fstaging_glovtex_com"
+	SEARCH  7:"//localhost/wordpress" ===========================> "//staging.glovtex.com"
+	SEARCH  8:"\/\/localhost\/wordpress" ========================> "\/\/staging.glovtex.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress" =====================> "%2F%2Fstaging.glovtex.com"
+	SEARCH 10:"https://staging.glovtex.com" =====================> "http://staging.glovtex.com"
+	SEARCH 11:"https:\/\/staging.glovtex.com" ===================> "http:\/\/staging.glovtex.com"
+	SEARCH 12:"https%3A%2F%2Fstaging.glovtex.com" ===============> "http%3A%2F%2Fstaging.glovtex.com"
+--------------------------------------
+SCANNED:	Tables:28 	|	 Rows:2404 	|	 Cells:22496 
+UPDATED:	Tables:4 	|	 Rows:684 	|	 Cells:825 
+ERRORS:		0 
+RUNTIME:	0.606000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+ - Username 'admin' already exists in the database.  Unable to create new account.
+
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 06:39:11 - RUNTIME: 0.6247 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] New admin user create error
+	SECTIONS: general
+	LONG MSG: 
+NEW WP-ADMIN USER:
+ - Username 'admin' already exists in the database.  Unable to create new account.
+
+
+====================================
